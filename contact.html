@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>contact</title>
+    <!-- 网页标题左侧显示 -->
+    <link rel="icon" href="img/skylab.ico" type="image/x-icon">
+    <!-- 收藏夹显示 -->
+    <link rel="shortcut icon" href="img/brand.ico" type="image/x-icon">
+    <link rel="icon" href="img/brand.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="layui/css/layui.css" media="all">
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+<!-- 头部  -->
+<div id="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">
+            <img src="img/brand.jpg" alt="Brand" ><strong>ISIP</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <!--							<a class="nav-link" href="MV.html">MV</a>-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- 主体 -->
+<div id="main" class="container-fluid">
+    <div id="full-container" class="container-item row">
+        <div id="content" class="text-center col-12">
+            <p style="font-size: 40px">ISIP Lab</p>
+            <p>需要</p>
+            <p>注入<i>新</i>的血液</p>
+            <p class="big-text">你</p>
+            <p class="big-text">来不来</p>
+            <span>?</span>
+        </div>
+    </div>
+    <div id="contact-container">
+        <div id="contact-top" class="container-item">
+            <span class="contact-title text-center col-12">Contact</span>
+        </div>
+        <div id="contact-bottom">
+            <span class="contact-title text-center col-12">Contact</span>
+
+
+            <div style="width: 100%;height: 100%;text-align: center;">
+                <div style="font-family: 'Maven Pro', sans-serif, '微软雅黑';padding: 0.5em;margin: 0px">
+                    请如实填写你的个人信息<br>
+                    <!--					*为了方便下载打印，图片显示为原始尺寸*<br>*右击即可保存图片*-->
+                </div>
+                <!--				<img  src= "img/application-Forms.jpg" style="width:620px;height: 877px;text-align: center;">-->
+                <div style="width: 80%;margin: 20px auto">
+                    <form class="layui-form" action="">
+
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">姓 名： </label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="stuname" lay-verify="required" placeholder="请输入姓名"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">学 号： </label>
+                                <div class="layui-input-inline ">
+                                    <input type="text" name="stuid" lay-verify="required|number" placeholder="请输入学号"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">学 院： </label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="stucollege" lay-verify="required" placeholder="请输入学院"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">专 业： </label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="stuwork" lay-verify="required" placeholder="请输入专业"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">班 级： </label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="stumajor" lay-verify="required" placeholder="请输入班级"
+                                           class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">性 别： </label>
+                                <div class="layui-input-inline">
+                                    <input type="radio" name="stugender" value="男" title="男" checked="">
+                                    <input type="radio" name="stugender" value="女" title="女">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">手 机： </label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="stutel" lay-verify="required|phone" placeholder="请输入学号"
+                                           class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">邮 箱： </label>
+                                <div class="layui-input-inline">
+                                    <input type="email" name="mailbox" lay-verify="required|email" placeholder="请输入邮箱"
+                                           class="layui-input">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="layui-form-item">
+                                <button class="layui-btn" type="submit" lay-submit="" style="width: 120px" lay-filter="demo1">立即提交</button>
+
+                                <button class="layui-btn" style="width: 120px">状态查询</button>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+
+                <!--				<div class="zhushi" >/*本网站推荐电脑浏览观看*/</div>-->
+                <!-- 底部 -->
+                <footer class="footer-box">
+                    <div class="p">
+                        <!--					<p>Copyright © skylab</p>-->
+                        <!--					<p>Software College 科信软件学院 || SYNU 沈阳师范大学</p>-->
+                        <p>西安邮电大学ISIP实验室</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="layui/layui.js" charset="utf-8"></script>
+<script>
+    layui.use('form', function () {
+        var form = layui.form; //只有执行了这一步，部分表单元素才会自动修饰成功
+        var layer=layui.layer;
+
+        form.on('submit(demo1)', function(data){
+                $.post('http://222.24.22.63:8080/login', {data:data.field}, function (data) {
+
+                    console.log('ok');
+
+                    if (data=="addok"){
+                        layer.msg('添加成功', {icon: 6});
+                        table.reload('rolelist', {});
+                    }else if(data =="adderror"){
+                        layer.msg('添加失败，角色名不能重复', {icon: 5});
+                    }
+                    else if (data=="upok"){
+
+                        layer.msg('更新成功', {icon: 6});
+                        table.reload('rolelist', {});
+                    }else if (data=="uperror"){
+                        layer.msg('更新失败，角色名不能重复', {icon: 5});
+
+                    }
+                    layer.close(index);
+                });
+                layer.closeAll();
+
+            return false;
+        });
+    })
+</script>
+
+</body>
+
+</html>
